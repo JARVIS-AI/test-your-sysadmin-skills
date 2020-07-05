@@ -1,33 +1,40 @@
 <p align="center">
-    <img src="https://github.com/trimstray/test-your-sysadmin-skills/blob/master/doc/img/sysadmin_preview.png"
-        alt="Master">
+  <a href="https://github.com/trimstray/test-your-sysadmin-skills">
+    <img src="https://github.com/trimstray/test-your-sysadmin-skills/blob/master/static/img/sysadmin_preview.png" alt="Master">
+  </a>
 </p>
 
 <br>
 
+<p align="center">:star:</p>
+
 <p align="center">"<i>A great Admin doesn't need to know everything, but they should be able to come up with amazing solutions to impossible projects.</i>" - cwheeler33 (ServerFault)</p>
+
+<p align="center">:star:</p>
 
 <p align="center">"<i>My skills are making things work, not knowing a billion facts. [...] If I need to fix a system I’ll identify the problem, check the logs and look up the errors. If I need to implement a solution I’ll research the right solution, implement and document it, the later on only really have a general idea of how it works unless I interact with it frequently... it’s why it’s documented.</i>" - Sparcrypt (Reddit)</p>
 
 <br>
 
 <p align="center">
-  <a href="https://github.com/trimstray/test-your-sysadmin-skills/tree/master">
-    <img src="https://img.shields.io/badge/Branch-master-green.svg?longCache=true"
-        alt="Branch">
+  <a href="https://github.com/trimstray/test-your-sysadmin-skills/pulls">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?longCache=true" alt="Pull Requests">
   </a>
-  <a href="http://www.gnu.org/licenses/">
-    <img src="https://img.shields.io/badge/License-GNU-blue.svg?longCache=true"
-        alt="License">
+  <a href="LICENSE.md">
+    <img src="https://img.shields.io/badge/License-MIT-lightgrey.svg?longCache=true" alt="MIT License">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://twitter.com/trimstray" target="_blank">
+    <img src="https://img.shields.io/twitter/follow/trimstray.svg?logo=twitter">
   </a>
 </p>
 
 <div align="center">
   <sub>Created by
   <a href="https://twitter.com/trimstray">trimstray</a> and
-  <a href="https://github.com/trimstray/test-your-sysadmin-skills/graphs/contributors">
-    contributors
-  </a>
+  <a href="https://github.com/trimstray/test-your-sysadmin-skills/graphs/contributors">contributors</a>
 </div>
 
 <br>
@@ -36,13 +43,15 @@
 
 <br>
 
-:information_source: &nbsp;This project contains **278** test questions and answers that can be used as a test your knowledge or during an interview/exam for position such as **\*nix System Administrator**.
+:information_source: &nbsp;This project contains **284** test questions and answers that can be used as a test your knowledge or during an interview/exam for position such as **Linux (\*nix) System Administrator**.
 
 :heavy_check_mark: &nbsp;The answers are only **examples** and do not exhaust the whole topic. Most of them contains **useful resources** for a deeper understanding.
 
 :warning: &nbsp;Questions marked **`***`** don't have answer yet or answer is incomplete - **make a pull request to add them**!
 
-:traffic_light: &nbsp;If you find a question which doesn't make sense, or one of the answers doesn't seem right, or something seems really stupid; **please make a pull request**.
+:traffic_light: &nbsp;If you find something which doesn't make sense, or something doesn't seem right, **please make a pull request** and please add valid and well-reasoned explanations about your changes or comments.
+
+:books: &nbsp;In order to improve your knowledge/skills please see [devops-interview-questions](https://github.com/bregman-arie/devops-interview-questions). It looks really interesting.
 
 <br>
 
@@ -59,11 +68,11 @@
 | <b>[Introduction](#introduction)</b> |||
 | :small_orange_diamond: [Simple Questions](#simple-questions) | 14 questions | Relaxed, fun and simple - are great for starting everything. |
 | <b>[General Knowledge](#general-knowledge)</b> |||
-| :small_orange_diamond: [Junior Sysadmin](#junior-sysadmin) | 64 questions | Reasonably simple and straight based on basic knowledge. |
-| :small_orange_diamond: [Regular Sysadmin](#regular-sysadmin) | 91 questions | The mid level of questions if that you have sound knowledge. |
-| :small_orange_diamond: [Senior Sysadmin](#senior-sysadmin) | 95 questions | Hard questions and riddles. Check it if you want to be good. |
+| :small_orange_diamond: [Junior Sysadmin](#junior-sysadmin) | 65 questions | Reasonably simple and straight based on basic knowledge. |
+| :small_orange_diamond: [Regular Sysadmin](#regular-sysadmin) | 94 questions | The mid level of questions if that you have sound knowledge. |
+| :small_orange_diamond: [Senior Sysadmin](#senior-sysadmin) | 99 questions | Hard questions and riddles. Check it if you want to be good. |
 | <b>[Secret Knowledge](#secret-knowledge)</b> ||
-| :small_orange_diamond: [Guru Sysadmin](#guru-sysadmin) | 14 questions | Really deep questions are to get to know Guru Sysadmin. |
+| :small_orange_diamond: [Guru Sysadmin](#guru-sysadmin) | 12 questions | Really deep questions are to get to know Guru Sysadmin. |
 
 <br>
 
@@ -79,7 +88,7 @@
 - <b>Describe the setup of your homelab.</b>
 - <b>What personal achievement are you most proud of?</b>
 - <b>Tell me about the biggest mistake you've made. How would you do it differently today?</b>
-- <b>What software tools are you going to install the first day at a new job?</b>
+- <b>What software tools are you going to install on the first day at a new job?</b>
 - <b>Tell me about how you manage your knowledge database (e.g. wikis, files, portals).</b>
 - <b>What news sources do you check daily? (sysadmin, security-related or other)</b>
 - <b>Your NOC team has a new budget for sysadmin certifications. What certificate would you like and why?</b>
@@ -90,11 +99,10 @@
 
 ### :diamond_shape_with_a_dot_inside: <a name="junior-sysadmin">Junior Sysadmin</a>
 
-###### System Questions (36)
+###### System Questions (37)
 
 <details>
-<summary><b>Give some examples of Linux distribution names. What is your favorite Linux distro and why?</b></summary><br>
-
+<summary><b>Give some examples of Linux distribution. What is your favorite distro and why?</b></summary><br>
 - Red Hat Enterprise Linux
 - Fedora
 - CentOS
@@ -111,7 +119,7 @@
 My favorite Linux distribution:
 
 - **Arch Linux**, which offers a nice minimalist base system on which one can build a custom operating system. The beauty of it too is that it has the Arch User Repository (AUR), which when combined with its official binary repositories allows it to probably have the largest repositories of any distribution. Its packaging process is also very simple, which means if one wants a package not in its official repositories or the AUR, it should be easy to make it for oneself.
-- **Linux Mint**, which is also built from Ubuntu LTS releases, but features editions featuring a few different desktop environments, including Cinnamon, MATE and Xfce. Mint is quite polished and its aesthetics are rather appealing, I especially like its new icon theme, although I do quite dislike its GTK+ theme (too bland to my taste). I’ve also found a bug in its latest release Mint 19, that is getting quite irritating as I asked for help with it over a fortnight ago on their forums and I have received no replies so far and it is a bug that makes my life on it more difficult.
+- **Linux Mint**, which is also built from Ubuntu LTS releases, but features editions featuring a few different desktop environments, including Cinnamon, MATE and Xfce. Mint is quite polished and its aesthetics are rather appealing, I especially like its new icon theme, although I do quite dislike its GTK+ theme (too bland to my taste). I’ve also found a bug in its latest release Mint 19, that is getting quite irritating as I asked for with it over a fortnight ago on their forums and I have received no replies so far and it is a bug that makes my life on it more difficult.
 - **Kali Linux**, is a Debian-based Linux distribution aimed at advanced Penetration Testing and Security Auditing. Kali contains several hundred tools which are geared towards various information security tasks, such as Penetration Testing, Security research, Computer Forensics and Reverse Engineering.
 
 Useful resources:
@@ -122,7 +130,7 @@ Useful resources:
 </details>
 
 <details>
-<summary><b>What are the differences between Unix, Linux, BSD and GNU?</b></summary><br>
+<summary><b>What are the differences between Unix, Linux, BSD, and GNU?</b></summary><br>
 
 **GNU** isn't really an OS. It's more of a set of rules or philosophies that govern free software, that at the same time gave birth to a bunch of tools while trying to create an OS. So **GNU** tools are basically open versions of tools that already existed, but were reimplemented to conform to principals of open software. **GNU/Linux** is a mesh of those tools and the **Linux kernel** to form a complete OS, but there are other GNUs, e.g. **GNU/Hurd**.
 
@@ -142,7 +150,7 @@ Useful resources:
 </details>
 
 <details>
-<summary><b>What is a CLI? Tell me about your favorite CLI tools, tips and hacks.</b></summary><br>
+<summary><b>What is a CLI? Tell me about your favorite CLI tools, tips, and hacks.</b></summary><br>
 
 **CLI** is an acronym for Command Line Interface or Command Language Interpreter. The command line is one of the most powerful ways to control your system/computer.
 
@@ -192,9 +200,11 @@ Useful resources:
 </details>
 
 <details>
-<summary><b>How do you getting help the command line? ***</b></summary><br>
+<summary><b>How do you get help on the command line? ***</b></summary><br>
 
-To be completed.
+- `man` [commandname] can be used to see a description of a command (ex.: `man less`, `man cat`)
+
+- `-h` or `--help` some programs will implement printing instructions when passed this parameter (ex.: `python -h` and `python --help`)
 
 </details>
 
@@ -344,7 +354,7 @@ To be completed.
 </details>
 
 <details>
-<summary><b>Why is it bad to run commands as root user?</b></summary><br>
+<summary><b>Running the command as root user. It is a good or bad practices?</b></summary><br>
 
 Running (everything) as root is bad because:
 
@@ -515,7 +525,7 @@ Useful resources:
 </details>
 
 <details>
-<summary><b>Explain file content commands along with the description.</b></summary><br>
+<summary><b>Explain the file content commands along with the description.</b></summary><br>
 
 - `head`: to check the starting of a file.
 - `tail`: to check the ending of the file. It is the reverse of head command.
@@ -530,7 +540,7 @@ Useful resources:
 </details>
 
 <details>
-<summary><b>Explain SIGHUP, SIGINT, SIGKILL and SIGTERM Posix signals.</b></summary><br>
+<summary><b>SIGHUP, SIGINT, SIGKILL, and SIGTERM POSIX signals. Explain.</b></summary><br>
 
 - **SIGHUP** - is sent to a process when its controlling terminal is closed. It was originally designed to notify the process of a serial line drop (a hangup). Many daemons will reload their configuration files and reopen their logfiles instead of exiting when receiving this signal.
 - **SIGINT** - is sent to a process by its controlling terminal when a user wishes to interrupt the process. This is typically initiated by pressing `Ctrl+C`, but on some systems, the "delete" character or "break" key can be used.
@@ -570,7 +580,14 @@ Useful resources:
 </details>
 
 <details>
-<summary><b><code>archive.tgz</code> has ~30 GB. How do you list contents of it and extract only one file?</b></summary><br>
+<summary><b>How do I <code>grep</code> recursively? Explain on several examples. ***</b></summary>
+
+To be completed.
+
+</details>
+
+<details>
+<summary><b><code>archive.tgz</code> has ~30 GB. How do you list content of it and extract only one file?</b></summary><br>
 
 ```bash
 # list of content
@@ -677,7 +694,7 @@ Useful resources:
 </details>
 
 <details>
-<summary><b>You have to find all files larger than 20M. How will you do this?</b></summary><br>
+<summary><b>You have to find all files larger than 20MB. How you do it?</b></summary><br>
 
 ```bash
 find / -type f -size +20M
@@ -795,7 +812,7 @@ Useful resources:
 </details>
 
 <details>
-<summary><b>What is your the best command line text editor for daily working and scripting? ***</b></summary><br>
+<summary><b>What is your best command line text editor for daily working and scripting? ***</b></summary><br>
 
 To be completed.
 
@@ -896,9 +913,15 @@ Useful resources:
 </details>
 
 <details>
-<summary><b>What POP and IMAP are, and how to choose which of them you should implement? ***</b></summary><br>
+<summary><b>What POP and IMAP are, and how to choose which of them you should implement?</b></summary><br>
 
-To be completed.
+POP and IMAP are both protocols for retrieving messages from a mail server to a mail client.
+
+**POP** (_Post Office Protocol_) uses a one way push from mail server to client. By default this will send messages to the POP mail client and remove them from the mail server, though it is possible to configure the mail server to retain all messages. Any actions you take on the message in your mail client (labeling, deleting, moving to a folder) will not be reflected on the mail server, and thus inaccessible to other mail clients pulling from the mail server. POP uses little storage space on the mail server and can be seen as more secure since messages only exist on one mail client instead of the mail server and multiple clients.
+
+**IMAP** (_Internet Message Access Protocol_) uses two way communication between mail server and client. Deleting or labeling a message in your mail client configured with IMAP will also delete or label the message on the mail server. IMAP allows for a similar experience when accessing mail across different clients or devices since messages can existing in the same state across multiple devices. IMAP can also save disk space on the mail client by selectively syncing messages, deleting older messages from the mail client since it can sync them from the mail server later as needed.
+
+Choose IMAP if you need to access messages across multiple devices and you want to save disk space on your client device. Choose POP if you want to save disk space on your mail server, only access messages from one client device, and ensure that messages do not exist on multiple systems.
 
 </details>
 
@@ -1118,7 +1141,7 @@ Operating at the network layer and transport layer of the TCP/IP protocol stack,
 
 Useful resources:
 
-- [Building Internet Firewalls - Packet Filtering](http://web.deu.edu.tr/doc/oreily/networking/firewall/ch06_01.htm)
+- [Building Internet Firewalls - Packet Filtering](http://web.deu.edu.tr/static/oreily/networking/firewall/ch06_01.htm)
 
 </details>
 
@@ -1247,7 +1270,7 @@ Useful resources:
 </details>
 
 <details>
-<summary><b>What is version control? Are your commit messages good looking?</b></summary><br>
+<summary><b>What is a version control? Are your commit messages good looking?</b></summary><br>
 
 It is a system that records changes to a file or set of files over time so that you can recall specific versions later. Version control systems consist of a central shared repository where teammates can commit changes to a file or set of file. Then you can mention the uses of version control.
 
@@ -1319,10 +1342,10 @@ Useful resources:
 
 ### :diamond_shape_with_a_dot_inside: <a name="regular-sysadmin">Regular Sysadmin</a>
 
-###### System Questions (57)
+###### System Questions (60)
 
 <details>
-<summary><b>What is your experience with the production environments? ***</b></summary><br>
+<summary><b>Tell me about your experience with the production environments? ***</b></summary><br>
 
 To be completed.
 
@@ -1354,6 +1377,13 @@ Useful resources:
 
 - [Analyzing the Linux boot process](https://opensource.com/article/18/1/analyzing-linux-boot-process)
 - [Systemd Boot Process a Close Look in Linux](https://linoxide.com/linux-how-to/systemd-boot-process/)
+
+</details>
+
+<details>
+<summary><b>How and why Linux daemons drop privileges? Why some daemons need root permissions to start? Explain. ***</b></summary>
+
+To be completed.
 
 </details>
 
@@ -1490,6 +1520,13 @@ Useful resources:
 </details>
 
 <details>
+<summary><b>How to permanently set <code>$PATH</code> on Linux/Unix? Why is this variable so important? ***</b></summary>
+
+To be completed.
+
+</details>
+
+<details>
 <summary><b>When your server is booting up some errors appears on the console. How to examine boot messages and where are they stored?</b></summary><br>
 
 Your console has two types of messages:
@@ -1578,7 +1615,7 @@ Useful resources:
 </details>
 
 <details>
-<summary><b>Explain the differences among the following umask values: 000, 002, 022, 027, 077 and 277.</b></summary><br>
+<summary><b>Explain the differences among the following umask values: 000, 002, 022, 027, 077, and 277.</b></summary><br>
 
 <table style="width:100%">
   <tr>
@@ -1754,7 +1791,14 @@ Useful resources:
 </details>
 
 <details>
-<summary><b>During server configuration one of the steps is setting the permissions to the apps directories. What steps will you take and what mistakes to avoid?</b></summary><br>
+<summary><b>How to make high availability of web application? ***</b></summary>
+
+To be completed.
+
+</details>
+
+<details>
+<summary><b>You are configuring a new server. One of the steps is setting the permissions to the app directories. What steps will you take and what mistakes to avoid?</b></summary><br>
 
 **1) Main requirements - remember about this**
 
@@ -1900,7 +1944,7 @@ Useful resources:
 </details>
 
 <details>
-<summary><b>Explain <code>/proc</code> filesystem.</b></summary><br>
+<summary><b>Explain the <code>/proc</code> filesystem.</b></summary><br>
 
 `/proc` is a virtual file system that provides detailed information about kernel, hardware and running processes.
 
@@ -1996,7 +2040,7 @@ Useful resources:
 </details>
 
 <details>
-<summary><b><code>ls -l</code> shows file attributes as question marks. What does this mean and what steps will you take to remove "zombie" files?</b></summary><br>
+<summary><b><code>ls -l</code> shows file attributes as question marks. What this means and what steps will you take to remove unused "zombie" files?</b></summary><br>
 
 This problem may be more difficult to solve because several steps may be required - sometimes you have get `test/file: Permission denied`, `test/file: No such file or directory` or `test/file: Input/output error`.
 
@@ -2093,7 +2137,7 @@ Useful resources:
 </details>
 
 <details>
-<summary><b>What is the proper way to upgrade/update a system in production? Do you automate these process? Do you set downtime for them? Write recommendations. ***</b></summary><br>
+<summary><b>What is the proper way to upgrade/update a system in production? Do you automate these processes? Do you set downtime for them? Write recommendations. ***</b></summary><br>
 
 To be completed.
 
@@ -2305,7 +2349,7 @@ The command paths must be absolute! Then call `sudo -u user2 /opt/scripts/bin/ge
 </details>
 
 <details>
-<summary><b>How to check if running as root in a bash script?</b></summary><br>
+<summary><b>How to check if running as root in a bash script? What should you watch out for?</b></summary><br>
 
 In a bash script, you have several ways to check if the running user is root.
 
@@ -2761,7 +2805,7 @@ This protocol operates at layer 2 of the OSI model with the purpose of preventin
 </details>
 
 <details>
-<summary><b>How to check which ports are listening in my Linux Server?</b></summary><br>
+<summary><b>How to check which ports are listening on my Linux Server?</b></summary><br>
 
 Use the:
 
@@ -3160,7 +3204,7 @@ Abiding by a set of standards set by a government/Independent party/organisation
 
 ### :diamond_shape_with_a_dot_inside: <a name="senior-sysadmin">Senior Sysadmin</a>
 
-###### System Questions (60)
+###### System Questions (61)
 
 <details>
 <summary><b>Explain the current architecture you’re responsible for and point out where it’s scalable or fault-tolerant. ***</b></summary><br>
@@ -3200,7 +3244,7 @@ Example: We have servers for device drivers, network protocol stacks, file syste
 
 **Hybrid Kernels (Modular Kernels)**
 
-This is a combination of the above two, where the key idea is that Operating System services are in Kernel Space, and and there is no message passing, no performance overhead and no reliability benefits, of having services in user space.
+This is a combination of the above two, where the key idea is that Operating System services are in Kernel Space, and there is no message passing, no performance overhead and no reliability benefits, of having services in user space.
 
 This is used by Microsoft's NT kernels, all the way up to the latest Windows version.
 
@@ -3280,7 +3324,7 @@ If you want to add other programs to system startup you need to change `/etc/rc.
 </details>
 
 <details>
-<summary><b>CPU spent the most of time for a IO operations to complete. Which tools do you use for diagnose what process(es) did exactly wait for IO? How to minimize IO wait time? ***</b></summary><br>
+<summary><b>CPU spent the most of the time for a IO operations to complete. Which tools do you use for diagnose what process(es) did exactly wait for IO? How to minimize IO wait time? ***</b></summary><br>
 
 To be completed.
 
@@ -3399,13 +3443,13 @@ Useful resources:
 
 There are some system calls for process management. These are as follows:
 
-- `Fork()`: it is used to create a new process
-- `Exec()`: it is used to execute a new process
-- `Wait()`: it is used to make the process to wait
-- `Exit()`: it is used to exit or terminate the process
-- `Getpid()`: it is used to find the unique process ID
-- `Getppid()`: it is used to check the parent process ID
-- `Nice()`: it is used to bias the currently running process property
+- `fork()`: it is used to create a new process
+- `exec()`: it is used to execute a new process
+- `wait()`: it is used to make the process to wait
+- `exit()`: it is used to exit or terminate the process
+- `getpid()`: it is used to find the unique process ID
+- `getppid()`: it is used to check the parent process ID
+- `nice()`: it is used to bias the currently running process property
 
 Useful resources:
 
@@ -3491,7 +3535,7 @@ Useful resources:
 </details>
 
 <details>
-<summary><b>Ordinary users are able to read <code>/etc/passwd</code>. Is this a security hole? You know alternative password shadowing scheme?</b></summary><br>
+<summary><b>Ordinary users are able to read <code>/etc/passwd</code>. Is it a security hole? Do you know other password shadowing scheme?</b></summary><br>
 
 Typically, the _hashed passwords_ are stored in `/etc/shadow` on most Linux systems:
 
@@ -3614,7 +3658,7 @@ Useful resources:
 </details>
 
 <details>
-<summary><b>Difference between <code>nohup</code>, <code>disown</code> and <code>&</code>. What happens when using all together?</b></summary><br>
+<summary><b>Difference between <code>nohup</code>, <code>disown</code>, and <code>&</code>. What happens when using all together?</b></summary><br>
 
 - `&` puts the job in the background, that is, makes it block on attempting to read input, and makes the shell not wait for its completion
 - `disown` removes the process from the shell's job control, but it still leaves it connected to the terminal. One of the results is that the shell won't send it a **SIGHUP**. Obviously, it can only be applied to background jobs, because you cannot enter it when a foreground job is running
@@ -3778,7 +3822,7 @@ Useful resources:
 </details>
 
 <details>
-<summary><b>What is the difference between <code>/sbin/nologin</code>, <code>/bin/false</code> and <code>/bin/true</code>?</b></summary><br>
+<summary><b>What is the difference between <code>/sbin/nologin</code>, <code>/bin/false</code>, and <code>/bin/true</code>?</b></summary><br>
 
 When `/sbin/nologin` is set as the shell, if user with that shell logs in, they'll get a polite message saying 'This account is currently not available'.
 
@@ -3942,7 +3986,7 @@ grep mkdir "${d}/available_events"
 # Enable tracing mkdir.
 # Both statements below seem to do the exact same thing,
 # just with different interfaces.
-# https://www.kernel.org/doc/html/v4.18/trace/events.html
+# https://www.kernel.org/static/html/v4.18/trace/events.html
 echo sys_enter_mkdir > "${d}/set_event"
 # echo 1 > "${d}/events/syscalls/sys_enter_mkdir/enable"
 
@@ -4023,7 +4067,7 @@ fi
 </details>
 
 <details>
-<summary><b>Explain differences between <code>2>&-</code>, <code>2>/dev/null</code>, <code>|&</code>, <code>&>/dev/null</code> and <code>>/dev/null 2>&1</code>.</b></summary><br>
+<summary><b>Explain differences between <code>2>&-</code>, <code>2>/dev/null</code>, <code>|&</code>, <code>&>/dev/null</code>, and <code>>/dev/null 2>&1</code>.</b></summary><br>
 
 - a **number 1** = standard out (i.e. `STDOUT`)
 - a **number 2** = standard error (i.e. `STDERR`)
@@ -4119,7 +4163,7 @@ Useful resources:
 </details>
 
 <details>
-<summary><b>How to enforce authorization methods in SSH?</b></summary><br>
+<summary><b>How to enforce authorization methods in SSH? In what situations it would be useful?</b></summary><br>
 
 Force login with a password:
 
@@ -4246,12 +4290,12 @@ Useful resources:
 </details>
 
 <details>
-<summary><b>How to prevent <code>dd</code> from freezing system?</b></summary><br>
+<summary><b>How to prevent <code>dd</code> from freezing your system?</b></summary><br>
 
 Try using ionice:
 
 ```bash
-ionice -c3 dd if=/dev/zero of=z
+ionice -c3 dd if=/dev/zero of=file
 ```
 
 This start the `dd` process with the "idle" IO priority: it only gets disk time when no other process is using disk IO for a certain amount of time.
@@ -4356,7 +4400,7 @@ Useful resources:
 </details>
 
 <details>
-<summary><b>What steps to add a user to a system without using <code>useradd</code>/<code>adduser</code>?</b></summary><br>
+<summary><b>How to add new user without using <code>useradd</code>/<code>adduser</code> commands?</b></summary><br>
 
 1. Add an entry of user details in <code>/etc/passwd</code> with `vipw`:
 
@@ -4476,7 +4520,67 @@ To be completed.
 
 </details>
 
-###### Network Questions (24)
+<details>
+<summary><b>What are salted hashes? Generate the password with salt for the <code>/etc/shadow</code> file.</b></summary><br>
+
+**Salt** at its most fundamental level is random data. When a properly protected password system receives a new password, it will create a hashed value for that password, create a new random salt value, and then store that combined value in its database. This helps defend against dictionary attacks and known hash attacks.
+
+For example, if a user uses the same password on two different systems, if they used the same hashing algorithm, they could end up with the same hash value. However, if even one of the systems uses salt with its hashes, the values will be different.
+
+The encrypted passwords in `/etc/shadow` file are stored in the following format:
+
+```bash
+$ID$SALT$ENCRYPTED
+```
+
+The `$ID` indicates the type of encryption, the `$SALT` is a random (up to 16 characters) string and `$ENCRYPTED` is a password’s hash.
+
+<table style="width:100%">
+  <tr>
+    <th>Hash Type</th>
+    <th>ID</th>
+    <th>Hash Length</th>
+  </tr>
+  <tr>
+    <td>MD5</td>
+    <td>$1</td>
+    <td>22 characters</td>
+  </tr>
+  <tr>
+    <td>SHA-256</td>
+    <td>$5</td>
+    <td>43 characters</td>
+  </tr>
+  <tr>
+    <td>SHA-512</td>
+    <td>$6</td>
+    <td>86 characters</td>
+  </tr>
+</table>
+
+Use the below commands from the Linux shell to generate hashed password for `/etc/shadow` with the random salt:
+
+- Generate **MD5** password hash
+
+```bash
+python -c "import random,string,crypt; randomsalt = ''.join(random.sample(string.ascii_letters,8)); print crypt.crypt('MySecretPassword', '\$1\$%s\$' % randomsalt)"
+```
+
+- Generate **SHA-256** password hash
+
+```bash
+python -c "import random,string,crypt; randomsalt = ''.join(random.sample(string.ascii_letters,8)); print crypt.crypt('MySecretPassword', '\$5\$%s\$' % randomsalt)"
+```
+
+- Generate **SHA-512** password hash
+
+```bash
+python -c "import random,string,crypt; randomsalt = ''.join(random.sample(string.ascii_letters,8)); print crypt.crypt('MySecretPassword', '\$6\$%s\$' % randomsalt)"
+```
+
+</details>
+
+###### Network Questions (27)
 
 <details>
 <summary><b>Create SPF records for your site to help control spam. ***</b></summary><br>
@@ -4488,7 +4592,7 @@ To be completed.
 <details>
 <summary><b>What is the difference between an authoritative and a nonauthoritative answer to a DNS query? ***</b></summary><br>
 
-To be completed.
+An authoritative DNS query answer comes from the server that contains the zone files for the domain queried. This is the name server that the domain administrator set up the DNS records on. A nonauthoriative answer comes from a name server that does not host the domain zone files (for example, a commonly used name server has the answer cached such as Google's 8.8.8.8 or OpenDNS 208.67.222.222).
 
 </details>
 
@@ -4599,6 +4703,51 @@ Useful resources:
 </details>
 
 <details>
+<summary><b>How do I measure request and response times at once using <code>curl</code>?</b></summary><br>
+
+`curl` supports formatted output for the details of the request (see the `curl` manpage for details, under `-w| -write-out 'format'`). For our purposes we’ll focus just on the timing details that are provided.
+
+1. Create a new file, `curl-format.txt`, and paste in:
+
+```bash
+    time_namelookup:  %{time_namelookup}\n
+       time_connect:  %{time_connect}\n
+    time_appconnect:  %{time_appconnect}\n
+   time_pretransfer:  %{time_pretransfer}\n
+      time_redirect:  %{time_redirect}\n
+ time_starttransfer:  %{time_starttransfer}\n
+                    ----------\n
+         time_total:  %{time_total}\n
+```
+
+2. Make a request:
+
+```bash
+curl -w "@curl-format.txt" -o /dev/null -s "http://example.com/"
+```
+
+What this does:
+
+- `-w "@curl-format.txt"` - tells cURL to use our format file
+- `-o /dev/null` - redirects the output of the request to /dev/null
+- `-s` - tells cURL not to show a progress meter
+`http://example.com/` is the URL we are requesting. Use quotes particularly if your URL has "&" query string parameters
+
+</details>
+
+<details>
+<summary><b>You need to move ext4 journal on another disk/partition. What are the reasons for this? ***</b></summary><br>
+
+To be completed.
+
+Useful resources:
+
+- [ext4: using external journal to optimize performance](https://raid6.com.au/posts/fs_ext4_external_journal/)
+- [How to move an ext4 journal](https://unix.stackexchange.com/questions/278998/how-to-move-an-ext4-journal)
+
+</details>
+
+<details>
 <summary><b>Does having Varnish in front of your website/app mean you don't need to care about load balancing or redundancy?</b></summary><br>
 
 It depends. Varnish is a cache server, so its purpose is to cache contents and to act as a reverse proxy, to speed up retrieval of data and to lessen the load on the webserver.
@@ -4629,7 +4778,7 @@ To be completed.
 </details>
 
 <details>
-<summary><b>Developer says: <i><code>htaccess</code> is full of magic and it should be used</i>. What is your opinion about using <code>htaccess</code> files? What are the consequences for web application?</b></summary><br>
+<summary><b>Developer says: <i><code>htaccess</code> is full of magic and it should be used</i>. What is your opinion about using <code>htaccess</code> files? How has this effect on the web app</b></summary><br>
 
 `.htaccess` files were born out of an era when shared hosting was common­place:
 
@@ -4675,7 +4824,7 @@ Useful resources:
 </details>
 
 <details>
-<summary><b>How to test connection to remote host with and without SNI? In which cases it is useful?</b></summary><br>
+<summary><b>Is it safe to use SNI SSL in production? How to test connection with and without it? In which cases it is useful?</b></summary><br>
 
 With <b>OpenSSL</b>:
 
@@ -4718,7 +4867,57 @@ To be completed.
 </details>
 
 <details>
-<summary><b>What is the proper way to test NFS performance?
+<summary><b>You should rewrite POST with payload to an external API but the POST requests loose the parameters passed on the URL. How to fix this problem (e.g. in Nginx) and what are the reasons for this behavior?</b></summary><br>
+
+The issue is that external redirects will never resend **POST** data. This is written into the HTTP spec (check the `3xx` section). Any client that does do this is violating the spec.
+
+**POST** data is passed in the body of the request, which gets dropped if you do a standard redirect.
+
+Look at this:
+
+```
+   +-------------------------------------------+-----------+-----------+
+   |                                           | Permanent | Temporary |
+   +-------------------------------------------+-----------+-----------+
+   | Allows changing the request method from   | 301       | 302       |
+   | POST to GET                               |           |           |
+   | Does not allow changing the request       | 308       | 307       |
+   | method from POST to GET                   |           |           |
+   +-------------------------------------------+-----------+-----------+
+```
+
+You can try with the HTTP status code **307**, a RFC compliant browser should repeat the post request. You just need to write a Nginx rewrite rule with HTTP status code **307** or **308**:
+
+```bash
+location / {
+    proxy_pass              http://localhost:80;
+    client_max_body_size    10m;
+}
+
+location /api {
+    # HTTP 307 only for POST method.
+    if ($request_method = POST) {
+        return 307 https://api.example.com?request_uri;
+    }
+
+    # You can keep this for non-POST requests.
+    rewrite ^ https://api.example.com?request_uri permanent;
+
+    client_max_body_size    10m;
+}
+```
+
+HTTP Status code **307** or **308** should be used instead of **301** because it changes the request method from **POST** to **GET**.
+
+Useful resources:
+
+- [Redirection on Apache (Maintain POST params)](https://stackoverflow.com/questions/17295085/redirection-on-apache-maintain-post-params)
+- [Why doesn't HTTP have POST redirect?](https://softwareengineering.stackexchange.com/questions/99894/why-doesnt-http-have-post-redirect)
+
+</details>
+
+<details>
+<summary><b>What is the proper way to test NFS performance? Prepare a short checklist.
 </b></summary><br>
 
 The best benchmark is always "the application(s) that you normally use". The load on a NFS system when you have 20 people simultaneously compiling a Linux kernel is completely different from a bunch of people logging in at the same time or the accounts uses as "home directories for the local web-server".
@@ -4732,7 +4931,7 @@ But we have some good tools for testing this.
 </details>
 
 <details>
-<summary><b>You need to block several IP addresses from the same subnet. Which is more efficient for the system to traverse the iptables rule set or the black-hole route?</b></summary><br>
+<summary><b>You need to block several IPs from the same subnet. What is the most efficient way for the system to traverse the iptables rule set or the black-hole route?</b></summary><br>
 
 If you have a system with thousands of routes defined in the routing table and nothing in the iptables rules than it might actually be more efficient to input an iptables rule.
 
@@ -5030,7 +5229,7 @@ When the device generated an alert for an intrusion which has actually not happe
 </details>
 
 <details>
-<summary><b>10 quick points on web server hardening.</b></summary><br>
+<summary><b>10 quick points about web server hardening.</b></summary><br>
 
 Example:
 
@@ -5060,6 +5259,13 @@ Useful resources:
 ## <a name="secret-knowledge">Secret Knowledge</a>
 
 ### :diamond_shape_with_a_dot_inside: <a name="guru-sysadmin">Guru Sysadmin</a>
+
+<details>
+<summary><b>Explain what is Event-Driven architecture and how it improves performance? ***</b></summary><br>
+
+To be completed.
+
+</details>
 
 <details>
 <summary><b>An application encounters some performance issues. You should to find the code we have to optimize. How to profile app in Linux environment?</b></summary><br>
@@ -5251,56 +5457,6 @@ if [[ $state -ne 0 ]] ; then echo "not connection" > /dev/stderr ; exit ; fi
 </details>
 
 <details>
-<summary><b>You should rewrite POST with payload to external API but POST requests loose the parameters passed on the URL. How to fix this problem (e.g. in Nginx) and what are the reasons for this behavior?</b></summary><br>
-
-The issue is that external redirects will never resend **POST** data. This is written into the HTTP spec (check the `3xx` section). Any client that does do this is violating the spec.
-
-**POST** data is passed in the body of the request, which gets dropped if you do a standard redirect.
-
-Look at this:
-
-```
-   +-------------------------------------------+-----------+-----------+
-   |                                           | Permanent | Temporary |
-   +-------------------------------------------+-----------+-----------+
-   | Allows changing the request method from   | 301       | 302       |
-   | POST to GET                               |           |           |
-   | Does not allow changing the request       | 308       | 307       |
-   | method from POST to GET                   |           |           |
-   +-------------------------------------------+-----------+-----------+
-```
-
-You can try with the HTTP status code **307**, a RFC compliant browser should repeat the post request. You just need to write a Nginx rewrite rule with HTTP status code **307** or **308**:
-
-```bash
-location / {
-    proxy_pass              http://localhost:80;
-    client_max_body_size    10m;
-}
-
-location /api {
-    # HTTP 307 only for POST method.
-    if ($request_method = POST) {
-        return 307 https://api.example.com?request_uri;
-    }
-
-    # You can keep this for non-POST requests.
-    rewrite ^ https://api.example.com?request_uri permanent;
-
-    client_max_body_size    10m;
-}
-```
-
-HTTP Status code **307** or **308** should be used instead of **301** because it changes the request method from **POST** to **GET**.
-
-Useful resources:
-
-- [Redirection on Apache (Maintain POST params)](https://stackoverflow.com/questions/17295085/redirection-on-apache-maintain-post-params)
-- [Why doesn't HTTP have POST redirect?](https://softwareengineering.stackexchange.com/questions/99894/why-doesnt-http-have-post-redirect)
-
-</details>
-
-<details>
 <summary><b>Write two golden rules for reducing the impact of hacked system.</b></summary><br>
 
 1) **The principle of least privilege**
@@ -5343,51 +5499,6 @@ Use the tools available. It's highly unlikely that you can do as well as the guy
 Useful resources:
 
 - [How to prevent zero day attacks (original)](https://serverfault.com/questions/391370/how-to-prevent-zero-day-attacks)
-
-</details>
-
-<details>
-<summary><b>How do I measure request and response times at once using <code>curl</code>?</b></summary><br>
-
-`curl` supports formatted output for the details of the request (see the `curl` manpage for details, under `-w| -write-out 'format'`). For our purposes we’ll focus just on the timing details that are provided.
-
-1. Create a new file, `curl-format.txt`, and paste in:
-
-```bash
-    time_namelookup:  %{time_namelookup}\n
-       time_connect:  %{time_connect}\n
-    time_appconnect:  %{time_appconnect}\n
-   time_pretransfer:  %{time_pretransfer}\n
-      time_redirect:  %{time_redirect}\n
- time_starttransfer:  %{time_starttransfer}\n
-                    ----------\n
-         time_total:  %{time_total}\n
-```
-
-2. Make a request:
-
-```bash
-curl -w "@curl-format.txt" -o /dev/null -s "http://example.com/"
-```
-
-What this does:
-
-- `-w "@curl-format.txt"` - tells cURL to use our format file
-- `-o /dev/null` - redirects the output of the request to /dev/null
-- `-s` - tells cURL not to show a progress meter
-`http://example.com/` is the URL we are requesting. Use quotes particularly if your URL has "&" query string parameters
-
-</details>
-
-<details>
-<summary><b>You need to move ext4 journal on another disk/partition. What are the reasons for this? ***</b></summary><br>
-
-To be completed.
-
-Useful resources:
-
-- [ext4: using external journal to optimize performance](https://raid6.com.au/posts/fs_ext4_external_journal/)
-- [How to move an ext4 journal](https://unix.stackexchange.com/questions/278998/how-to-move-an-ext4-journal)
 
 </details>
 
@@ -5475,7 +5586,7 @@ With fork bombs your best method for this is preventing from being to big of an 
 </details>
 
 <details>
-<summary><b>How to recover deleted file held open by Apache?</b></summary><br>
+<summary><b>How to recover deleted file held open e.g. by Apache?</b></summary><br>
 
 If a file has been deleted but is still open, that means the file still exists in the filesystem (it has an inode) but has a hard link count of 0. Since there is no link to the file, you cannot open it by name. There is no facility to open a file by inode either.
 
@@ -5691,66 +5802,7 @@ echo <pid> > /mnt/oom-killer/invincibles/tasks
 Useful resources:
 
 - [Rsync triggered Linux OOM killer on a single 50 GB file](https://serverfault.com/questions/724469/rsync-triggered-linux-oom-killer-on-a-single-50-gb-file)
-
-</details>
-
-<details>
-<summary><b>What are salted hashes? Generate the password with salt for the <code>/etc/shadow</code> file.</b></summary><br>
-
-**Salt** at its most fundamental level is random data. When a properly protected password system receives a new password, it will create a hashed value for that password, create a new random salt value, and then store that combined value in its database. This helps defend against dictionary attacks and known hash attacks.
-
-For example, if a user uses the same password on two different systems, if they used the same hashing algorithm, they could end up with the same hash value. However, if even one of the systems uses salt with its hashes, the values will be different.
-
-The encrypted passwords in `/etc/shadow` file are stored in the following format:
-
-```bash
-$ID$SALT$ENCRYPTED
-```
-
-The `$ID` indicates the type of encryption, the `$SALT` is a random (up to 16 characters) string and `$ENCRYPTED` is a password’s hash.
-
-<table style="width:100%">
-  <tr>
-    <th>Hash Type</th>
-    <th>ID</th>
-    <th>Hash Length</th>
-  </tr>
-  <tr>
-    <td>MD5</td>
-    <td>$1</td>
-    <td>22 characters</td>
-  </tr>
-  <tr>
-    <td>SHA-256</td>
-    <td>$5</td>
-    <td>43 characters</td>
-  </tr>
-  <tr>
-    <td>SHA-512</td>
-    <td>$6</td>
-    <td>86 characters</td>
-  </tr>
-</table>
-
-Use the below commands from the Linux shell to generate hashed password for `/etc/shadow` with the random salt:
-
-- Generate **MD5** password hash
-
-```bash
-python -c "import random,string,crypt; randomsalt = ''.join(random.sample(string.ascii_letters,8)); print crypt.crypt('MySecretPassword', '\$1\$%s\$' % randomsalt)"
-```
-
-- Generate **SHA-256** password hash
-
-```bash
-python -c "import random,string,crypt; randomsalt = ''.join(random.sample(string.ascii_letters,8)); print crypt.crypt('MySecretPassword', '\$5\$%s\$' % randomsalt)"
-```
-
-- Generate **SHA-512** password hash
-
-```bash
-python -c "import random,string,crypt; randomsalt = ''.join(random.sample(string.ascii_letters,8)); print crypt.crypt('MySecretPassword', '\$6\$%s\$' % randomsalt)"
-```
+- [Taming the OOM killer](https://lwn.net/Articles/317814/)
 
 </details>
 
@@ -5762,5 +5814,12 @@ To be completed.
 Useful resources:
 
 - [How to reduce number of sockets in TIME_WAIT?](https://serverfault.com/questions/212093/how-to-reduce-number-of-sockets-in-time-wait)
+
+</details>
+
+<details>
+<summary><b>How do <code>SO_REUSEADDR</code> and <code>SO_REUSEPORT</code> differ? Explain all socket implementations. ***</b></summary><br>
+
+To be completed.
 
 </details>
